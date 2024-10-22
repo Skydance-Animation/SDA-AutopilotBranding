@@ -1,7 +1,7 @@
 <Config>
   <TimeZone></TimeZone>
   <RemoveApps>
-    <App>Microsoft.BingNews</App>
+    <!-- <App>Microsoft.BingNews</App>
     <App>Microsoft.BingWeather</App>
     <App>Microsoft.DesktopAppInstaller</App>
     <App>Microsoft.GamingApp</App>
@@ -24,11 +24,11 @@
     <App>Microsoft.ZuneMusic</App>
     <App>Microsoft.ZuneVideo</App>
     <App>Clipchamp.Clipchamp</App>
-    <App>Microsoft.PowerAutomateDesktop</App>
+    <App>Microsoft.PowerAutomateDesktop</App> -->
   </RemoveApps>
   <OneDriveSetup>https://go.microsoft.com/fwlink/?linkid=844652</OneDriveSetup>
   <AddFeatures>
-    <Feature>Microsoft.Windows.Sense.Client~~~~</Feature>
+    <!-- <Feature>Microsoft.Windows.Sense.Client~~~~</Feature> -->
     <!-- If you do add a language pack, make sure you add these language add-ons for each one.
     <Feature>Language.Basic~~~es-ES~0.0.1.0</Feature>
     <Feature>Language.Fonts.PanEuropeanSupplementalFonts~~~~0.0.1.0</Feature>
@@ -40,19 +40,19 @@
     <!-- If you want .NET 3.5, uncomment this one.
     <Feature>NetFX3~~~~</Feature>
     -->
-    <Feature>WMIC</Feature>
+    <!-- <Feature>WMIC</Feature> -->
   </AddFeatures>
   <Language></Language>
   <!-- If you want to set a language, customize and reference this file: <Language>Language.xml</Language> -->
   <DefaultApps>Associations.xml</DefaultApps>
-  <RegisteredOwner>Autopilot User</RegisteredOwner>
-  <RegisteredOrganization>Contoso</RegisteredOrganization>
+  <RegisteredOwner>Skydance Animation User</RegisteredOwner>
+  <RegisteredOrganization>Skydance Animation</RegisteredOrganization>
   <OEMInfo>
-    <Manufacturer>Contoso</Manufacturer>
+    <Manufacturer>Skydance Animation</Manufacturer>
     <Model>PC</Model>
-    <Logo>Contoso.bmp</Logo>
-    <SupportPhone>+1 800-555-1212</SupportPhone>
-    <SupportHours>8am-5pm PST</SupportHours>
-    <SupportURL>http://www.contoso.com</SupportURL>
+    <Logo>SkydanceOEM.bmp</Logo>
+    <SupportPhone>+34916366607</SupportPhone>
+    <SupportHours>9:30am-18:30pm CEST</SupportHours>
+    <SupportURL>https://auth.skydance.com</SupportURL>
   </OEMInfo>
 </Config>
